@@ -6,6 +6,10 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2, preprocess_input, decode_predictions
 from fuzzywuzzy import fuzz
 
+import sys
+if sys.version_info[0:2] != (3, 10):
+    raise Exception('Requires python 3.10')
+
 # List of nouns (targets)
 nounList = [
     "elephant", "guitar", "bicycle", "shark", "tree", "banana", "monkey", "rocket", "camera", "balloon",
