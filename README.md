@@ -12,3 +12,4 @@ This game consists of 2 main mechanics:  <br />
 3. `virtualenv venv` to create your new environment - <ins>ensure it is using python==3.10</ins>  <br />
 4. `venv/Scripts/activate` to enter the virtual environment  <br />
 5. `pip install -r requirements.txt` to install the requirements in the current virtual environment  <br />
+6. `python predictorv3.py` to run the most recent version of the script
